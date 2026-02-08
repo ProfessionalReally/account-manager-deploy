@@ -16,13 +16,13 @@ services:
 
   backend:
     build:
-      context: ./backend
+      context: ./account-manager-server
     networks:
       - dev
 
   frontend:
     build:
-      context: ./frontend
+      context: ./account-manager
     networks:
       - dev
 
