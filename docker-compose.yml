@@ -17,6 +17,8 @@ services:
   backend:
     build:
       context: ./account-manager-server
+    env_file:
+      - ./account-manager-server/.env
     networks:
       - dev
 
