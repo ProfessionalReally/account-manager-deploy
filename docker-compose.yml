@@ -27,7 +27,7 @@ services:
       - dev
 
   mongodb:
-    image: mongo:stable
+    image: mongo:latest
     volumes:
       - mongo_data:/data/db
     networks:
